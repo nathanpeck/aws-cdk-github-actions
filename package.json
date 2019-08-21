@@ -1,0 +1,19 @@
+{
+  "description": "Setup for tests for various functions",
+  "devDependencies": {
+    "aws-cdk": "^1.5.0",
+    "@aws-cdk/core": "^1.5.0",
+    "@aws-cdk/aws-ec2": "^1.5.0",
+    "@aws-cdk/aws-ecs": "^1.5.0",
+    "@aws-cdk/aws-ecs-patterns": "^1.5.0"
+  },
+  "scripts": {
+    "setup": "npm install",
+    "deploy": "cdk deploy '*'",
+    "synth": "cdk synth --output synth",
+    "destroy": "cdk destroy"
+  },
+  "dependencies": {
+    "npm": "6.10.0"
+  }
+}
